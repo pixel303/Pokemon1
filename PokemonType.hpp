@@ -6,7 +6,9 @@ enum class PokemonType {
     GRASS,
     WATER,
     ELECTRIC,
-    NORMAL
+    NORMAL,
+    BUG,
+    POISON
 };
 
 #endif // POKEMON_TYPE_HPP
