@@ -1,4 +1,7 @@
 ﻿  Game.cpp
-  Main.cpp
+  Player.cpp
+  Pokemon.cpp
+  WildEncounterManager.cpp
+C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\WildEncounterManager.cpp(8,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Generating Code...
   Pokemon Backup.vcxproj -> C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\x64\Debug\Pokemon.exe

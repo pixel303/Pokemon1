@@ -9,9 +9,9 @@ using namespace std;
 Game::Game() {
     // Create a sample grass environment with actual Pokemon objects
     forestGrass = { "Forest",
-                   {Pokemon("Pidgey", PokemonType::NORMAL, 40),
-                    Pokemon("Caterpie", PokemonType::BUG, 35),
-                    Pokemon("Zubat", PokemonType::POISON, 30)},
+                   {Pokemon("Pidgey", PokemonType::NORMAL, 40, 10),
+                    Pokemon("Caterpie", PokemonType::BUG, 35, 12),
+                    Pokemon("Zubat", PokemonType::POISON, 30, 15)},
                    70 };
 }
 
@@ -47,7 +47,8 @@ void Game::gameLoop(Player& player) {
             break;
         }
         case 2: {
-            cout << "You head to the PokeCenter, but Nurse Joy is out on a coffee break. Guess your Pokémon will have to tough it out for now!\n";
+            cout << "You head to the PokeCenter. Nurse Joy welcomes you and heals your Pokémon.\n";
+            player.chosenPokemon.heal(); // Heal the player's chosen Pokémon
             break;
         }
         case 3: {
