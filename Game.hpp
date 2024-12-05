@@ -1,11 +1,12 @@
 #include "Grass.hpp"
-
-class Player;
+#include "Player.hpp"
 
 class Game {
 private:
-	Grass forestGrass;
+    Grass forestGrass;
+
 public:
-	Game();
-	void gameLoop(Player& player);
+    Game();
+    void gameLoop(Player& player);
+    void battle(Pokemon& playerPokemon, Pokemon& wildPokemon); // New method for battle
 };

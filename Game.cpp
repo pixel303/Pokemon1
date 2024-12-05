@@ -42,17 +42,8 @@ void Game::gameLoop(Player& player) {
             Pokemon encounteredPokemon = encounterManager.getRandomPokemonFromGrass(forestGrass);
             cout << "A wild " << encounteredPokemon.name << " appeared!\n";
 
-            // Simulate a battle
-            player.chosenPokemon.attack(encounteredPokemon);
-            if (encounteredPokemon.isFainted()) {
-                cout << "The wild " << encounteredPokemon.name << " fainted!\n";
-            }
-            else {
-                encounteredPokemon.attack(player.chosenPokemon);
-                if (player.chosenPokemon.isFainted()) {
-                    cout << player.chosenPokemon.name << " fainted!\n";
-                }
-            }
+            // Start the battle
+            battle(player.chosenPokemon, encounteredPokemon);
             break;
         }
         case 2: {
@@ -88,4 +79,22 @@ void Game::gameLoop(Player& player) {
     }
 
     cout << "Goodbye, " << player.name << "! Thanks for playing!\n";
+}
+
+void Game::battle(Pokemon& playerPokemon, Pokemon& wildPokemon) {
+    while (!playerPokemon.isFainted() && !wildPokemon.isFainted()) {
+        // Player's Pokémon attacks first
+        playerPokemon.attack(wildPokemon);
+        if (wildPokemon.isFainted()) {
+            cout << "The wild " << wildPokemon.name << " fainted!\n";
+            break;
+        }
+
+        // Wild Pokémon attacks back
+        wildPokemon.attack(playerPokemon);
+        if (playerPokemon.isFainted()) {
+            cout << playerPokemon.name << " fainted!\n";
+            break;
+        }
+    }
 }
