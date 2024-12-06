@@ -1,4 +1,7 @@
+#include "Game.hpp"
 #include "Player.hpp"
+#include "ProfessorOak.hpp"
+#include "WildEncounterManager.hpp"
 //#include "Pokemon.hpp"
 #include "PokemonChoice.hpp"
 #include "PokemonType.hpp"
@@ -9,7 +12,7 @@
 using namespace std;
 
 // ProfessorOak class definition
-class ProfessorOak {
+/*class ProfessorOak {
 public:
     string name;
 
@@ -116,10 +119,10 @@ public:
             "forget to set up the actual game loop... Ahem, onwards!\n";
         Utility::waitForEnter();
     }
-};
+};*/
 
 // Function to handle the main game loop
-void gameLoop(Player& player) {
+/*void gameLoop(Player& player) {
     int choice;
     bool keepPlaying = true;
 
@@ -179,11 +182,11 @@ void gameLoop(Player& player) {
     }
 
     cout << "Goodbye, " << player.name << "! Thanks for playing!\n";
-}
+}*/
 
 int main() {
     // Create Pokemon and Player objects for the game
-    Pokemon charmander("Charmander", PokemonType::FIRE, 100); // Using parameterized constructor
+    Pokemon charmander("Charmander", PokemonType::FIRE, 100, 15); // Using parameterized constructor
 
     // Continue with the main flow of the game
     ProfessorOak professor("Professor Oak");
@@ -197,7 +200,8 @@ int main() {
     professor.explainMainQuest(player);
 
     // Start the main game loop
-    gameLoop(player);
+    Game game;
+    game.gameLoop(player);
 
     return 0;
 }
