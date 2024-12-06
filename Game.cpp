@@ -3,11 +3,11 @@
 #include "PokemonType.hpp"
 #include "Utility.hpp"
 #include "WildEncounterManager.hpp"
+#include "BattleManager.hpp"
 #include <iostream>
 using namespace std;
 
 Game::Game() {
-    // Create a sample grass environment with actual Pokemon objects
     forestGrass = { "Forest",
                    {Pokemon("Pidgey", PokemonType::NORMAL, 40, 10),
                     Pokemon("Caterpie", PokemonType::BUG, 35, 12),
@@ -20,10 +20,8 @@ void Game::gameLoop(Player& player) {
     bool keepPlaying = true;
 
     while (keepPlaying) {
-        // Clear console before showing options
         Utility::clearConsole();
 
-        // Display options to the player
         cout << "\nWhat would you like to do next, " << player.name << "?\n";
         cout << "1. Battle Wild Pokémon\n";
         cout << "2. Visit PokeCenter\n";
@@ -33,22 +31,19 @@ void Game::gameLoop(Player& player) {
         cout << "Enter your choice: ";
         cin >> choice;
 
-        Utility::clearInputBuffer(); // Clear the input buffer
+        Utility::clearInputBuffer();
 
-        // Process the player's choice and display the corresponding message
         switch (choice) {
         case 1: {
             WildEncounterManager encounterManager;
             Pokemon encounteredPokemon = encounterManager.getRandomPokemonFromGrass(forestGrass);
-            cout << "A wild " << encounteredPokemon.name << " appeared!\n";
-
-            // Start the battle
-            battle(player.chosenPokemon, encounteredPokemon);
+            BattleManager battleManager;
+            battleManager.startBattle(player, encounteredPokemon);
             break;
         }
         case 2: {
             cout << "You head to the PokeCenter. Nurse Joy welcomes you and heals your Pokémon.\n";
-            player.chosenPokemon.heal(); // Heal the player's chosen Pokémon
+            player.chosenPokemon.heal();
             break;
         }
         case 3: {
@@ -75,27 +70,8 @@ void Game::gameLoop(Player& player) {
         }
         }
 
-        // Wait for Enter key before the screen is cleared and the menu is shown again
         Utility::waitForEnter();
     }
 
     cout << "Goodbye, " << player.name << "! Thanks for playing!\n";
-}
-
-void Game::battle(Pokemon& playerPokemon, Pokemon& wildPokemon) {
-    while (!playerPokemon.isFainted() && !wildPokemon.isFainted()) {
-        // Player's Pokémon attacks first
-        playerPokemon.attack(wildPokemon);
-        if (wildPokemon.isFainted()) {
-            cout << "The wild " << wildPokemon.name << " fainted!\n";
-            break;
-        }
-
-        // Wild Pokémon attacks back
-        wildPokemon.attack(playerPokemon);
-        if (playerPokemon.isFainted()) {
-            cout << playerPokemon.name << " fainted!\n";
-            break;
-        }
-    }
 }
