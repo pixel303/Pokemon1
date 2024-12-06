@@ -3,6 +3,7 @@
 #include "PokemonType.hpp"
 #include "Utility.hpp"
 #include "WildEncounterManager.hpp"
+#include "BattleManager.hpp" // Include BattleManager
 #include <iostream>
 using namespace std;
 
@@ -40,10 +41,8 @@ void Game::gameLoop(Player& player) {
         case 1: {
             WildEncounterManager encounterManager;
             Pokemon encounteredPokemon = encounterManager.getRandomPokemonFromGrass(forestGrass);
-            cout << "A wild " << encounteredPokemon.name << " appeared!\n";
-
-            // Start the battle
-            battle(player.chosenPokemon, encounteredPokemon);
+            BattleManager battleManager;
+            battleManager.startBattle(player, encounteredPokemon); // Use BattleManager
             break;
         }
         case 2: {
@@ -80,22 +79,4 @@ void Game::gameLoop(Player& player) {
     }
 
     cout << "Goodbye, " << player.name << "! Thanks for playing!\n";
-}
-
-void Game::battle(Pokemon& playerPokemon, Pokemon& wildPokemon) {
-    while (!playerPokemon.isFainted() && !wildPokemon.isFainted()) {
-        // Player's Pokémon attacks first
-        playerPokemon.attack(wildPokemon);
-        if (wildPokemon.isFainted()) {
-            cout << "The wild " << wildPokemon.name << " fainted!\n";
-            break;
-        }
-
-        // Wild Pokémon attacks back
-        wildPokemon.attack(playerPokemon);
-        if (playerPokemon.isFainted()) {
-            cout << playerPokemon.name << " fainted!\n";
-            break;
-        }
-    }
 }
