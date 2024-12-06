@@ -1,8 +1,8 @@
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\BattleManager.cpp;C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Pokemon\x64\Debug\BattleManager.obj
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Game.cpp;C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Pokemon\x64\Debug\Game.obj
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Main.cpp;C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Pokemon\x64\Debug\Main.obj
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Player.cpp;C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Pokemon\x64\Debug\Player.obj
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Pokemon.cpp;C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Pokemon\x64\Debug\Pokemon.obj
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\ProfessorOak.cpp;C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Pokemon\x64\Debug\ProfessorOak.obj
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Utility.cpp;C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Pokemon\x64\Debug\Utility.obj
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\WildEncounterManager.cpp;C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Pokemon\x64\Debug\WildEncounterManager.obj
+C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Battle\BattleManager.cpp;C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Pokemon\x64\Debug\BattleManager.obj
+C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Battle\WildEncounterManager.cpp;C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Pokemon\x64\Debug\WildEncounterManager.obj
+C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Character\Player\Player.cpp;C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Pokemon\x64\Debug\Player.obj
+C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Character\ProfessorOak.cpp;C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Pokemon\x64\Debug\ProfessorOak.obj
+C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Main\Game.cpp;C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Pokemon\x64\Debug\Game.obj
+C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Main\Main.cpp;C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Pokemon\x64\Debug\Main.obj
+C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Pokemon\Pokemon.cpp;C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Pokemon\x64\Debug\Pokemon.obj
+C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Utility\Utility.cpp;C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\Pokemon\x64\Debug\Utility.obj
