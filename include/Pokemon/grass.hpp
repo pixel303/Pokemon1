@@ -1,10 +1,16 @@
-#include <string>
-#include <vector>
-#include "../../include/Pokemon/Pokemon.hpp"
-using namespace std;
+#ifndef GRASS_HPP
+#define GRASS_HPP
 
-struct Grass {
-    string environmentType;  
-    vector<Pokemon> wildPokemonList;  
-    int encounterRate;  
-};
+#include "Pokemon.hpp"  
+#include <vector>
+#include <string>
+
+namespace N_Pokemon {
+    struct Grass {
+        std::string environmentType;
+        std::vector<Pokemon> wildPokemonList;
+        int encounterRate;
+    };
+}
+
+#endif // GRASS_HPP
