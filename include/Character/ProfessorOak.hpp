@@ -1,14 +1,19 @@
+#ifndef PROFESSOR_OAK_HPP
+#define PROFESSOR_OAK_HPP
+
 #include <iostream>
-using namespace std;
+#include "Player/Player.hpp"
 
-class Player;
+namespace N_Character {
+	class ProfessorOak {
+	public:
+		std::string name;
 
-class ProfessorOak {
-public:
-	string name;
+		ProfessorOak(std::string p_name);
+		void greetPlayer(N_Player::Player& player);
+		void offerPokemonChoices(N_Player::Player& player);
+		void explainMainQuest(N_Player::Player& player);
+	};
+}
 
-	ProfessorOak(string p_name);
-	void greetPlayer(Player& player);
-	void offerPokemonChoices(Player& player);
-	void explainMainQuest(Player& player);
-};
+#endif // PROFESSOR_OAK_HPP
