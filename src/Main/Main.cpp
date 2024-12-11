@@ -2,7 +2,6 @@
 #include "../../include/Character/Player/Player.hpp"
 #include "../../include/Character/ProfessorOak.hpp"
 #include "../../include/Battle/WildEncounterManager.hpp"
-//#include "Pokemon.hpp"
 #include "../../include/Pokemon/PokemonChoice.hpp"
 #include "../../include/Pokemon/PokemonType.hpp"
 #include "../../include/Utility/Utility.hpp"

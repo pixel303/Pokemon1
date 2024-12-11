@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Main\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|solutionrelative:src\\Main\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Pokemon\\Pokemons\\Zubat.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|solutionrelative:include\\Pokemon\\Pokemons\\Zubat.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Pokemon\\Pokemons\\Caterpie.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|solutionrelative:include\\Pokemon\\Pokemons\\Caterpie.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Pokemon\\Pokemons\\Caterpie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Caterpie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Pokemon\\Pokemons\\Pidgey.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Pidgey.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Pokemon\\Pokemons\\Pikachu.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|solutionrelative:include\\Pokemon\\Pokemons\\Pikachu.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Pokemon\\Pokemons\\Pikachu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|solutionrelative:src\\Pokemon\\Pokemons\\Pikachu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Pokemon\\Pokemons\\Pidgey.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|solutionrelative:include\\Pokemon\\Pokemons\\Pidgey.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Battle\\WildEncounterManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|solutionrelative:src\\Battle\\WildEncounterManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -21,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Character\\Player\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|solutionrelative:src\\Character\\Player\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Main\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|solutionrelative:src\\Main\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A0D21B23-1AD6-4A0C-8B1E-C8670D48708B}|Pokemon Backup.vcxproj|C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Main\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -86,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,7 +122,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
+              "Title": "Zubat.hpp",
+              "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Pokemon\\Pokemons\\Zubat.hpp",
+              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemons\\Zubat.hpp",
+              "ToolTip": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Pokemon\\Pokemons\\Zubat.hpp",
+              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Zubat.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-11T12:23:31.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Caterpie.hpp",
+              "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Pokemon\\Pokemons\\Caterpie.hpp",
+              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemons\\Caterpie.hpp",
+              "ToolTip": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Pokemon\\Pokemons\\Caterpie.hpp",
+              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Caterpie.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-11T12:20:18.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pidgey.cpp",
+              "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Pokemon\\Pokemons\\Pidgey.cpp",
+              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Pidgey.cpp",
+              "ToolTip": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Pokemon\\Pokemons\\Pidgey.cpp",
+              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Pidgey.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-11T12:15:03.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pidgey.hpp",
+              "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Pokemon\\Pokemons\\Pidgey.hpp",
+              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemons\\Pidgey.hpp",
+              "ToolTip": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Pokemon\\Pokemons\\Pidgey.hpp",
+              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Pidgey.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-11T12:15:02.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pikachu.cpp",
+              "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Pokemon\\Pokemons\\Pikachu.cpp",
+              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Pikachu.cpp",
+              "ToolTip": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Pokemon\\Pokemons\\Pikachu.cpp",
+              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Pikachu.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-11T12:10:45.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pikachu.hpp",
+              "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Pokemon\\Pokemons\\Pikachu.hpp",
+              "RelativeDocumentMoniker": "include\\Pokemon\\Pokemons\\Pikachu.hpp",
+              "ToolTip": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Pokemon\\Pokemons\\Pikachu.hpp",
+              "RelativeToolTip": "include\\Pokemon\\Pokemons\\Pikachu.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-11T12:07:21.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "ProfessorOak.hpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Character\\ProfessorOak.hpp",
               "RelativeDocumentMoniker": "include\\Character\\ProfessorOak.hpp",
@@ -102,12 +208,11 @@
               "RelativeToolTip": "include\\Character\\ProfessorOak.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T12:49:32.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:32.988Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "Utility.hpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Utility\\Utility.hpp",
               "RelativeDocumentMoniker": "include\\Utility\\Utility.hpp",
@@ -115,12 +220,11 @@
               "RelativeToolTip": "include\\Utility\\Utility.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T12:49:36.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:36.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "WildEncounterManager.hpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Battle\\WildEncounterManager.hpp",
               "RelativeDocumentMoniker": "include\\Battle\\WildEncounterManager.hpp",
@@ -128,12 +232,11 @@
               "RelativeToolTip": "include\\Battle\\WildEncounterManager.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T12:49:29.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:29.169Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "BattleManager.cpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Battle\\BattleManager.cpp",
               "RelativeDocumentMoniker": "src\\Battle\\BattleManager.cpp",
@@ -141,12 +244,11 @@
               "RelativeToolTip": "src\\Battle\\BattleManager.cpp",
               "ViewState": "AQIAABsAAAAAAAAAAAAAABMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-06T12:49:40.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:40.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Game.cpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Main\\Game.cpp",
               "RelativeDocumentMoniker": "src\\Main\\Game.cpp",
@@ -154,25 +256,37 @@
               "RelativeToolTip": "src\\Main\\Game.cpp",
               "ViewState": "AQIAADkAAAAAAAAAAAAAABIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-06T12:49:46.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:46.381Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Main\\Main.cpp",
               "RelativeDocumentMoniker": "src\\Main\\Main.cpp",
               "ToolTip": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Main\\Main.cpp",
               "RelativeToolTip": "src\\Main\\Main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-06T12:47:47.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "Caterpie.cpp",
+              "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Pokemon\\Pokemons\\Caterpie.cpp",
+              "RelativeDocumentMoniker": "src\\Pokemon\\Pokemons\\Caterpie.cpp",
+              "ToolTip": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Pokemon\\Pokemons\\Caterpie.cpp",
+              "RelativeToolTip": "src\\Pokemon\\Pokemons\\Caterpie.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-11T12:20:54.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Player.cpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Character\\Player\\Player.cpp",
               "RelativeDocumentMoniker": "src\\Character\\Player\\Player.cpp",
@@ -180,12 +294,11 @@
               "RelativeToolTip": "src\\Character\\Player\\Player.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-06T12:49:44.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:44.483Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Pokemon.cpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Pokemon\\Pokemon.cpp",
               "RelativeDocumentMoniker": "src\\Pokemon\\Pokemon.cpp",
@@ -193,12 +306,11 @@
               "RelativeToolTip": "src\\Pokemon\\Pokemon.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-06T12:49:48.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:48.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "ProfessorOak.cpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Character\\ProfessorOak.cpp",
               "RelativeDocumentMoniker": "src\\Character\\ProfessorOak.cpp",
@@ -206,12 +318,11 @@
               "RelativeToolTip": "src\\Character\\ProfessorOak.cpp",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-06T12:49:45.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:45.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Utility.cpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Utility\\Utility.cpp",
               "RelativeDocumentMoniker": "src\\Utility\\Utility.cpp",
@@ -219,12 +330,11 @@
               "RelativeToolTip": "src\\Utility\\Utility.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-06T12:49:49.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:49.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "WildEncounterManager.cpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\src\\Battle\\WildEncounterManager.cpp",
               "RelativeDocumentMoniker": "src\\Battle\\WildEncounterManager.cpp",
@@ -237,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "PokemonType.hpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Pokemon\\PokemonType.hpp",
               "RelativeDocumentMoniker": "include\\Pokemon\\PokemonType.hpp",
@@ -245,12 +355,11 @@
               "RelativeToolTip": "include\\Pokemon\\PokemonType.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T12:49:36.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:36.141Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "PokemonChoice.hpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Pokemon\\PokemonChoice.hpp",
               "RelativeDocumentMoniker": "include\\Pokemon\\PokemonChoice.hpp",
@@ -258,12 +367,11 @@
               "RelativeToolTip": "include\\Pokemon\\PokemonChoice.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T12:49:35.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:35.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "Pokemon.hpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Pokemon\\Pokemon.hpp",
               "RelativeDocumentMoniker": "include\\Pokemon\\Pokemon.hpp",
@@ -271,12 +379,11 @@
               "RelativeToolTip": "include\\Pokemon\\Pokemon.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T12:49:34.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:34.899Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "Player.hpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Character\\Player\\Player.hpp",
               "RelativeDocumentMoniker": "include\\Character\\Player\\Player.hpp",
@@ -284,12 +391,11 @@
               "RelativeToolTip": "include\\Character\\Player\\Player.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T12:49:32.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:32.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "grass.hpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Pokemon\\grass.hpp",
               "RelativeDocumentMoniker": "include\\Pokemon\\grass.hpp",
@@ -297,12 +403,11 @@
               "RelativeToolTip": "include\\Pokemon\\grass.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T12:49:34.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:34.349Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "Game.hpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Main\\Game.hpp",
               "RelativeDocumentMoniker": "include\\Main\\Game.hpp",
@@ -310,12 +415,11 @@
               "RelativeToolTip": "include\\Main\\Game.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T12:49:33.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:33.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "BattleState.hpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Battle\\BattleState.hpp",
               "RelativeDocumentMoniker": "include\\Battle\\BattleState.hpp",
@@ -323,12 +427,11 @@
               "RelativeToolTip": "include\\Battle\\BattleState.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T12:49:28.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:28.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "BattleManager.hpp",
               "DocumentMoniker": "C:\\Users\\yashr\\OneDrive\\Desktop\\New folder\\Pokemon1\\include\\Battle\\BattleManager.hpp",
               "RelativeDocumentMoniker": "include\\Battle\\BattleManager.hpp",
@@ -336,8 +439,7 @@
               "RelativeToolTip": "include\\Battle\\BattleManager.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T12:49:27.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:27.088Z"
             }
           ]
         }
