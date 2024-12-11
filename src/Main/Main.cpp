@@ -15,25 +15,28 @@ using namespace N_Pokemon;
 using namespace N_Battle;
 using namespace N_Main;
 
-
 int main() {
-    // Create Pokemon and Player objects for the game
-    N_Pokemon:: Pokemon charmander("Charmander", PokemonType::FIRE, 100, 15); // Using parameterized constructor
-
-    // Continue with the main flow of the game
-    ProfessorOak professor("Professor Oak");
-    N_Player::Player player("Ash", charmander);
+    // Create Pokemon and Player objects for the game using dynamic memory allocation
+    N_Pokemon::Pokemon* charmander = new N_Pokemon::Pokemon("Charmander", PokemonType::FIRE, 100, 15);
+    ProfessorOak* professor = new ProfessorOak("Professor Oak");
+    N_Player::Player* player = new N_Player::Player("Ash", *charmander);
+    Game* game = new Game();
 
     // Greet the player and offer Pokemon choices
-    professor.greetPlayer(player);
-    professor.offerPokemonChoices(player);
+    professor->greetPlayer(*player);
+    professor->offerPokemonChoices(*player);
 
     // Explain the main quest
-    professor.explainMainQuest(player);
+    professor->explainMainQuest(*player);
 
     // Start the main game loop
-    Game game;
-    game.gameLoop(player);
+    game->gameLoop(*player);
+
+    // Free up dynamically allocated memory
+    delete charmander;
+    delete professor;
+    delete player;
+    delete game;
 
     return 0;
 }
