@@ -5,6 +5,7 @@
 
 using namespace N_Pokemon;
 using namespace std;
+using namespace N_Utility;
 
 namespace N_Player {
     Player::Player() : name("Trainer"), chosenPokemon() {}
@@ -27,7 +28,7 @@ namespace N_Player {
             chosenPokemon = Pokemon("Pikachu",PokemonType::ELECTRIC, 100, 20);
             break;
         }
-        cout << "Player " << name << " chose " << chosenPokemon.name << "!\n";
-        N_Utility::Utility::waitForEnter();
+        cout << "Player " << name << " chose " << chosenPokemon.getName() << "!\n";
+        Utility::waitForEnter();
     }
 }

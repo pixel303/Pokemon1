@@ -16,7 +16,7 @@ namespace N_Battle {
 
     void BattleManager::startBattle(Player& player, Pokemon& wildPokemon) {
         battleState = BattleState(&player.chosenPokemon, &wildPokemon); // Initialize BattleState
-        cout << "A wild " << wildPokemon.name << " appeared!\n";
+        cout << "A wild " << wildPokemon.getName() << " appeared!\n";
         battle();
     }
 
@@ -45,10 +45,10 @@ namespace N_Battle {
 
     void BattleManager::handleBattleOutcome() {
         if (battleState.playerPokemon->isFainted()) {
-            cout << battleState.playerPokemon->name << " has fainted! You lose the battle. Visit the PokéCenter to heal.\n";
+            cout << battleState.playerPokemon->getName() << " has fainted! You lose the battle. Visit the PokéCenter to heal.\n";
         }
         else {
-            cout << "You defeated the wild " << battleState.wildPokemon->name << "! Congratulations!\n";
+            cout << "You defeated the wild " << battleState.wildPokemon->getName() << "! Congratulations!\n";
         }
     }
 
