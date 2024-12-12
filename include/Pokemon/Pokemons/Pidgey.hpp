@@ -13,5 +13,8 @@ namespace N_Pokemon {
 
         // Method to perform Wing Attack
         void wingAttack(Pokemon& target);
+
+        void attack(Pokemon* target) override;
+
     };
 } 

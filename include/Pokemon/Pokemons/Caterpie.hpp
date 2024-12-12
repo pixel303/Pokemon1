@@ -13,5 +13,7 @@ namespace N_Pokemon {
 
         // Method to perform Bug Bite
         void bugBite(Pokemon& target);
+
+        void attack(Pokemon& target) override;  // Override the base class function
     };
 } 

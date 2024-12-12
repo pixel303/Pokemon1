@@ -11,4 +11,8 @@ namespace N_Pokemon {
         std::cout << name << " uses Vine Whip! It deals " << vineWhipDamage << " damage.\n";
         target.takeDamage(vineWhipDamage);
     }
+
+    void Bulbasaur::attack(Pokemon* target) {
+        vineWhip(target);
+    }
 } 

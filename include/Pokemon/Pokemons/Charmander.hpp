@@ -13,5 +13,8 @@ namespace N_Pokemon {
 
         // Method to perform Blaze
         void blaze(Pokemon& target);
+
+        void attack(Pokemon& target) override;
+
     };
 } 

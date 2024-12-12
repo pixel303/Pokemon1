@@ -13,5 +13,8 @@ namespace N_Pokemon {
 
         // Method to perform Supersonic
         void supersonic(Pokemon& target);
+
+        void attack(Pokemon& target) override;
+
     };
 } 

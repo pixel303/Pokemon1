@@ -11,4 +11,8 @@ namespace N_Pokemon {
         std::cout << name << " uses Blaze! It deals " << blazeDamage << " damage.\n";
         target.takeDamage(blazeDamage);
     }
+
+    void Charmander::attack(Pokemon& target) {
+        blaze(target);
+    }
 } 

@@ -11,7 +11,9 @@ namespace N_Pokemon {
         // Constructor declaration
         Bulbasaur(std::string p_name, PokemonType p_type, int p_health, int p_attackPower, int p_vineWhipDamage);
 
-        // Method to perform Vine Whip
         void vineWhip(Pokemon& target);
+
+        void attack(Pokemon* target) override;
+
     };
 }

@@ -11,4 +11,8 @@ namespace N_Pokemon {
         std::cout << name << " uses Water Gun! It deals " << waterGunDamage << " damage.\n";
         target.takeDamage(waterGunDamage);
     }
+
+    void Squirtle::attack(Pokemon& target) {
+        waterGun(target);
+    }
 } 

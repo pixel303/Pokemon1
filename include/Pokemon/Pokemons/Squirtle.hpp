@@ -13,5 +13,8 @@ namespace N_Pokemon {
 
         // Method to perform Water Gun
         void waterGun(Pokemon& target);
+
+        void attack(Pokemon& target) override;
+
     };
 } 
