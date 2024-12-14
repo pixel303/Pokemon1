@@ -11,4 +11,8 @@ namespace N_Pokemon {
         std::cout << name << " uses Supersonic! It deals " << supersonicDamage << " damage.\n";
         target.takeDamage(supersonicDamage);
     }
-} 
+
+    void Zubat::attack(Pokemon& target) {
+        supersonic(target);
+    }
+}

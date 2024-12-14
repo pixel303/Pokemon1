@@ -8,8 +8,8 @@ namespace N_Battle {
         srand(time(0));  // Seed the random number generator
     }
 
-    N_Pokemon::Pokemon WildEncounterManager::getRandomPokemonFromGrass(const N_Pokemon::Grass& grass) {
+    N_Pokemon::Pokemon* WildEncounterManager::getRandomPokemonFromGrass(const N_Pokemon::Grass& grass) {
         int randomIndex = rand() % grass.wildPokemonList.size();
-        return grass.wildPokemonList[randomIndex];
+        return grass.wildPokemonList[randomIndex];  // Return a pointer
     }
 }

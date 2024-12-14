@@ -18,11 +18,6 @@ namespace N_Pokemon {
     // Destructor
     Pokemon::~Pokemon() {}
 
-    void Pokemon::attack(Pokemon& target) {
-        cout << name << " attacks " << target.name << " for " << attackPower << " damage!\n";
-        target.takeDamage(attackPower);
-    }
-
     void Pokemon::takeDamage(int damage) {
         health -= damage;
         if (health < 0) {

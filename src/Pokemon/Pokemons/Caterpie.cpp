@@ -1,3 +1,4 @@
+// src/Pokemon/Pokemons/Caterpie.cpp
 #include "../../../include/Pokemon/Pokemons/Caterpie.hpp"
 #include <iostream>
 
@@ -11,4 +12,8 @@ namespace N_Pokemon {
         std::cout << name << " uses Bug Bite! It deals " << bugBiteDamage << " damage.\n";
         target.takeDamage(bugBiteDamage);
     }
-} 
+
+    void Caterpie::attack(Pokemon& target) {
+        bugBite(target);
+    }
+}
