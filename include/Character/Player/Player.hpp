@@ -3,16 +3,16 @@
 
 #include "../../Pokemon/Pokemon.hpp"  
 #include <string>
-using namespace std;
+#include <memory>
 
 namespace N_Player {
     class Player {
     public:
-        string name;
-        N_Pokemon::Pokemon chosenPokemon;
+        std::string name;
+        std::unique_ptr<N_Pokemon::Pokemon> chosenPokemon;
 
         Player();
-        Player(string p_name, N_Pokemon::Pokemon p_chosenPokemon);
+        Player(std::string p_name, N_Pokemon::Pokemon& p_pokemon);
 
         void choosePokemon(int choice);
     };

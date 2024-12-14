@@ -1,3 +1,4 @@
+// src/Pokemon/Pokemons/Caterpie.cpp
 #include "../../../include/Pokemon/Pokemons/Caterpie.hpp"
 #include <iostream>
 
@@ -15,4 +16,4 @@ namespace N_Pokemon {
     void Caterpie::attack(Pokemon& target) {
         bugBite(target);
     }
-} 
+}

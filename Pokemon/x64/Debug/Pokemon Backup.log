@@ -1,43 +1,5 @@
-﻿  BattleManager.cpp
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\include\Character\Player\Player.hpp(12,28): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-  WildEncounterManager.cpp
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Battle\WildEncounterManager.cpp(8,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Battle\WildEncounterManager.cpp(11,46): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-  Player.cpp
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\include\Character\Player\Player.hpp(12,28): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Character\Player\Player.cpp(13,13): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Character\Player\Player.cpp(19,29): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Character\Player\Player.cpp(22,29): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Character\Player\Player.cpp(25,29): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Character\Player\Player.cpp(28,29): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-  ProfessorOak.cpp
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\include\Character\Player\Player.hpp(12,28): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-  Game.cpp
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\include\Character\Player\Player.hpp(12,28): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Main\Game.cpp(20,36): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Main\Game.cpp(21,36): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Main\Game.cpp(22,36): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Main\Game.cpp(47,36): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Main\Game.cpp(47,74): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Main\Game.cpp(47,55): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-  Main.cpp
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\include\Character\Player\Player.hpp(12,28): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Main\Main.cpp(20,53): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Main\Main.cpp(20,60): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Main\Main.cpp(22,52): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-  Pokemon.cpp
-  Bulbasaur.cpp
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\include\Pokemon\Pokemons\Bulbasaur.hpp(16,14): error C3668: 'N_Pokemon::Bulbasaur::attack': method with override specifier 'override' did not override any base class methods
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Pokemon\Pokemons\Bulbasaur.cpp(16,9): error C2664: 'void N_Pokemon::Bulbasaur::vineWhip(N_Pokemon::Pokemon &)': cannot convert argument 1 from 'N_Pokemon::Pokemon *' to 'N_Pokemon::Pokemon &'
-  Caterpie.cpp
-  Charmander.cpp
+﻿  Game.cpp
   Pidgey.cpp
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\include\Pokemon\Pokemons\Pidgey.hpp(17,14): error C3668: 'N_Pokemon::Pidgey::attack': method with override specifier 'override' did not override any base class methods
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Pokemon\Pokemons\Pidgey.cpp(14,22): error C2601: 'N_Pokemon::Pidgey::attack': local function definitions are illegal
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Pokemon\Pokemons\Pidgey.cpp(15,13): error C2664: 'void N_Pokemon::Pidgey::wingAttack(N_Pokemon::Pokemon &)': cannot convert argument 1 from 'N_Pokemon::Pokemon *' to 'N_Pokemon::Pokemon &'
-  Pikachu.cpp
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\include\Pokemon\Pokemons\Pikachu.hpp(15,14): error C3668: 'N_Pokemon::Pikachu::attack': method with override specifier 'override' did not override any base class methods
-C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\src\Pokemon\Pokemons\Pikachu.cpp(16,9): error C2664: 'void N_Pokemon::Pikachu::thunderShock(N_Pokemon::Pokemon &)': cannot convert argument 1 from 'N_Pokemon::Pokemon *' to 'N_Pokemon::Pokemon &'
   Squirtle.cpp
-  Zubat.cpp
   Generating Code...
+  Pokemon Backup.vcxproj -> C:\Users\yashr\OneDrive\Desktop\New folder\Pokemon1\x64\Debug\Pokemon.exe

@@ -13,7 +13,12 @@ namespace N_Pokemon {
 
         void vineWhip(Pokemon& target);
 
-        void attack(Pokemon* target) override;
+        void attack(Pokemon& target) override;
+
+        // Implementing the clone method
+        std::unique_ptr<Pokemon> clone() const override {
+            return std::make_unique<Bulbasaur>(*this);
+        }
 
     };
 }

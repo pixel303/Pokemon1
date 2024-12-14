@@ -4,10 +4,12 @@
 #include "../../include/Battle/WildEncounterManager.hpp"
 #include "../../include/Pokemon/PokemonChoice.hpp"
 #include "../../include/Pokemon/PokemonType.hpp"
+#include "../../include/Pokemon/Pokemons/Charmander.hpp"
 #include "../../include/Utility/Utility.hpp"
 #include <iostream>
 #include <limits>
 #include <string>
+
 using namespace std;
 using namespace N_Utility;
 using namespace N_Character;
@@ -17,7 +19,7 @@ using namespace N_Main;
 
 int main() {
     // Create Pokemon and Player objects for the game using dynamic memory allocation
-    N_Pokemon::Pokemon* charmander = new N_Pokemon::Pokemon("Charmander", PokemonType::FIRE, 100, 15);
+    N_Pokemon::Pokemon* charmander = new N_Pokemon::Charmander("Charmander", PokemonType::FIRE, 100, 15, 18);
     ProfessorOak* professor = new ProfessorOak("Professor Oak");
     N_Player::Player* player = new N_Player::Player("Ash", *charmander);
     Game* game = new Game();

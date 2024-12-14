@@ -15,4 +15,4 @@ namespace N_Pokemon {
     void Zubat::attack(Pokemon& target) {
         supersonic(target);
     }
-} 
+}

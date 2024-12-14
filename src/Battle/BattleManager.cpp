@@ -15,7 +15,7 @@ namespace N_Battle {
     }
 
     void BattleManager::startBattle(Player& player, Pokemon& wildPokemon) {
-        battleState = BattleState(&player.chosenPokemon, &wildPokemon); // Initialize BattleState
+        battleState = BattleState(player.chosenPokemon.get(), &wildPokemon); // Correctly initialize BattleState
         cout << "A wild " << wildPokemon.getName() << " appeared!\n";
         battle();
     }

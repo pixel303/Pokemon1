@@ -9,12 +9,17 @@ namespace N_Pokemon {
 
     public:
         // Constructor declaration
-        Pidgey(std::string p_name, PokemonType p_type, int p_health, int p_attackPower, int p_wingAttackDamage);
+        Pidgey(std::string name, PokemonType type, int health, int attackPower, int wingAttackDamage);
 
         // Method to perform Wing Attack
         void wingAttack(Pokemon& target);
 
-        void attack(Pokemon* target) override;
+        void attack(Pokemon& target) override;
+
+        // Implementing the clone method
+        std::unique_ptr<Pokemon> clone() const override {
+            return std::make_unique<Pidgey>(*this);
+        }
 
     };
 } 

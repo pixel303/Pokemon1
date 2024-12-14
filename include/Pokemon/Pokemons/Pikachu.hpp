@@ -1,17 +1,20 @@
 #pragma once
 
-#include "../Pokemon.hpp" 
+#include "../Pokemon.hpp"
 
 namespace N_Pokemon {
     class Pikachu : public Pokemon {
     private:
-        int thunderShockDamage;  // Unique attack power for Pikachu's ThunderShock attack
-        void thunderShock(Pokemon& target);  // Unique attack power for Pikachu's ThunderShock attack
+        int thunderShockDamage;
+        void thunderShock(Pokemon& target);
 
     public:
-        // Constructor declaration
         Pikachu(std::string p_name, PokemonType p_type, int p_health, int p_attackPower, int p_thunderShockDamage);
 
-        void attack(Pokemon* target) override;
+        std::unique_ptr<Pokemon> clone() const override {
+            return std::make_unique<Pikachu>(*this);
+        }
+
+        void attack(Pokemon& target) override;
     };
-} 
+}

@@ -9,12 +9,17 @@ namespace N_Pokemon {
 
     public:
         // Constructor declaration
-        Zubat(std::string p_name, PokemonType p_type, int p_health, int p_attackPower, int p_supersonicDamage);
+        Zubat(std::string name, PokemonType type, int health, int attackPower, int supersonicDamage);
 
         // Method to perform Supersonic
         void supersonic(Pokemon& target);
 
         void attack(Pokemon& target) override;
+
+        // Implementing the clone method
+        std::unique_ptr<Pokemon> clone() const override {
+            return std::make_unique<Zubat>(*this);
+        }
 
     };
 } 

@@ -12,7 +12,7 @@ namespace N_Pokemon {
         target.takeDamage(vineWhipDamage);
     }
 
-    void Bulbasaur::attack(Pokemon* target) {
+    void Bulbasaur::attack(Pokemon& target) {
         vineWhip(target);
     }
 } 

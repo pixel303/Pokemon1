@@ -5,6 +5,9 @@
 #include "../../include/Battle/WildEncounterManager.hpp"
 #include "../../include/Battle/BattleManager.hpp"
 #include "../../include/Pokemon/Grass.hpp"
+#include "../../include/Pokemon/Pokemons/Pidgey.hpp"
+#include "../../include/Pokemon/Pokemons/Caterpie.hpp"
+#include "../../include/Pokemon/Pokemons/Zubat.hpp"
 #include <iostream>
 
 using namespace std;
@@ -15,12 +18,16 @@ using namespace N_Utility;
 using namespace N_Battle;
 
 namespace N_Main {
-    Game::Game() {
+    Game::Game() : wildPokemon(nullptr) {
         forestGrass = { "Forest",
-                       {N_Pokemon::Pokemon("Pidgey", PokemonType::NORMAL, 40, 10),
-                        N_Pokemon::Pokemon("Caterpie", PokemonType::BUG, 35, 12),
-                        N_Pokemon::Pokemon("Zubat", PokemonType::POISON, 30, 15)},
-                       70 };
+                {new Pidgey("Pidgey", PokemonType::NORMAL, 40, 10, 15),
+                 new Caterpie("Caterpie", PokemonType::BUG, 35, 12, 17),
+                 new Zubat("Zubat", PokemonType::POISON, 30, 15, 18) },
+                70 };
+    }
+
+    Game::~Game() {
+        delete wildPokemon;  // Ensure proper deletion of the wildPokemon pointer
     }
 
     void Game::gameLoop(Player& player) {
@@ -44,14 +51,14 @@ namespace N_Main {
             switch (choice) {
             case 1: {
                 WildEncounterManager encounterManager;
-                N_Pokemon::Pokemon encounteredPokemon = encounterManager.getRandomPokemonFromGrass(forestGrass);
+                wildPokemon = encounterManager.getRandomPokemonFromGrass(forestGrass);
                 BattleManager battleManager;
-                battleManager.startBattle(player, encounteredPokemon);
+                battleManager.startBattle(player, *wildPokemon);
                 break;
             }
             case 2: {
                 cout << "You head to the PokeCenter. Nurse Joy welcomes you and heals your Pokemon.\n";
-                player.chosenPokemon.heal();
+                player.chosenPokemon->heal();
                 break;
             }
             case 3: {
