@@ -33,7 +33,7 @@ namespace N_Pokemon {
         void setMaxHealth(int p_maxHealth) { maxHealth = p_maxHealth; }
         void setAttackPower(int p_attackPower) { attackPower = p_attackPower; }
 
-        void attack(Pokemon& target);
+        virtual void attack(Pokemon& target) = 0;
         void takeDamage(int damage);
         bool isFainted() const;
         void heal();

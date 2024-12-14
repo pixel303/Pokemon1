@@ -11,5 +11,7 @@ namespace N_Pokemon {
     public:
         // Constructor declaration
         Pikachu(std::string p_name, PokemonType p_type, int p_health, int p_attackPower, int p_thunderShockDamage);
+
+        void attack(Pokemon* target) override;
     };
 } 

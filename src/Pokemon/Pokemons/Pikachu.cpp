@@ -11,4 +11,8 @@ namespace N_Pokemon {
         std::cout << name << " uses ThunderShock! It deals " << thunderShockDamage << " damage.\n";
         target.takeDamage(thunderShockDamage);
     }
+
+    void Pikachu::attack(Pokemon* target) {
+        thunderShock(target);
+    }
 } 
