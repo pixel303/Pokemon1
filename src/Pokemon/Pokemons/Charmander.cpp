@@ -1,5 +1,9 @@
 #include "../../../include/Pokemon/Pokemons/Charmander.hpp"
 #include <iostream>
+#include "Utility/Utility.hpp"
+
+using namespace N_Utility;
+using namespace std;
 
 namespace N_Pokemon {
     Charmander::Charmander(std::string p_name, PokemonType p_type, int p_health, int p_attackPower, int p_blazeDamage)
@@ -10,7 +14,13 @@ namespace N_Pokemon {
     }
 
     void Charmander::blaze(Pokemon& target) {
-        std::cout << name << " uses Blaze! It deals " << blazeDamage << " damage.\n";
         target.takeDamage(blazeDamage);
+        cout << "Charmander used FLAME THROWER!" << endl;
+        N_Utility::Utility::waitForEnter();
+        cout << "*Whoosh* A stream of fire engulfs the opponent!" << endl;
+        N_Utility::Utility::waitForEnter();
+        cout << "The flames dance violently around the target!" << endl;
+        N_Utility::Utility::waitForEnter();
+        cout << "Opponent's remaining health: " << target.getHealth() << endl;
     }
 } 
