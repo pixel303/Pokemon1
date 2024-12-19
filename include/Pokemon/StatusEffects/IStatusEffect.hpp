@@ -1,7 +1,7 @@
 #pragma once
 
 #include <string>
-#include "../Pokemon.hpp"  // Ensure this path is correct based on your project structure
+#include "../Pokemon.hpp"  
 
 namespace N_Pokemon {
     class IStatusEffect {

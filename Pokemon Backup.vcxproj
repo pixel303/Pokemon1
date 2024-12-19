@@ -143,6 +143,7 @@
     <ClCompile Include="src\Pokemon\Pokemons\Pikachu.cpp" />
     <ClCompile Include="src\Pokemon\Pokemons\Squirtle.cpp" />
     <ClCompile Include="src\Pokemon\Pokemons\Zubat.cpp" />
+    <ClCompile Include="src\Pokemon\StatusEffects\ParalyzedEffect.cpp" />
     <ClCompile Include="src\Utility\Utility.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -165,6 +166,7 @@
     <ClInclude Include="include\Pokemon\PokemonType.hpp" />
     <ClInclude Include="include\Pokemon\StatusEffects\BurnEffect.hpp" />
     <ClInclude Include="include\Pokemon\StatusEffects\IStatusEffect.hpp" />
+    <ClInclude Include="include\Pokemon\StatusEffects\ParalyzedEffect.hpp" />
     <ClInclude Include="include\Utility\Utility.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
