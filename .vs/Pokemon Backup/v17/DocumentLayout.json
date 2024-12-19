@@ -162,8 +162,7 @@
               "RelativeToolTip": "include\\Pokemon\\Pokemons\\Pidgey.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-11T12:15:02.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T12:15:02.232Z"
             },
             {
               "$type": "Document",
@@ -175,8 +174,7 @@
               "RelativeToolTip": "include\\Pokemon\\Pokemons\\Bulbasaur.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-12T12:27:14.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T12:27:14.99Z"
             },
             {
               "$type": "Document",
@@ -188,8 +186,7 @@
               "RelativeToolTip": "include\\Pokemon\\Pokemons\\Squirtle.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-12T12:33:19.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T12:33:19.078Z"
             },
             {
               "$type": "Document",
@@ -201,8 +198,7 @@
               "RelativeToolTip": "include\\Battle\\WildEncounterManager.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T12:49:29.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:29.169Z"
             },
             {
               "$type": "Document",
@@ -214,8 +210,7 @@
               "RelativeToolTip": "src\\Battle\\BattleManager.cpp",
               "ViewState": "AQIAAAEAAAAAAAAAAIAwwBoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-06T12:49:40.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:40.918Z"
             },
             {
               "$type": "Document",
@@ -227,8 +222,7 @@
               "RelativeToolTip": "src\\Battle\\WildEncounterManager.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-06T12:49:41.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:41.779Z"
             },
             {
               "$type": "Document",
@@ -253,8 +247,7 @@
               "RelativeToolTip": "src\\Pokemon\\Pokemons\\Bulbasaur.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAIAwwBoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-12T12:27:13.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T12:27:13.527Z"
             },
             {
               "$type": "Document",
@@ -266,8 +259,7 @@
               "RelativeToolTip": "include\\Pokemon\\Pokemon.hpp",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T12:49:34.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:34.899Z"
             },
             {
               "$type": "Document",
@@ -279,8 +271,7 @@
               "RelativeToolTip": "src\\Pokemon\\Pokemons\\Pikachu.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-11T12:10:45.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T12:10:45.731Z"
             },
             {
               "$type": "Document",
@@ -292,8 +283,7 @@
               "RelativeToolTip": "src\\Pokemon\\Pokemon.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-06T12:49:48.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:48.263Z"
             },
             {
               "$type": "Document",
@@ -305,8 +295,7 @@
               "RelativeToolTip": "include\\Pokemon\\grass.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T12:49:34.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:34.349Z"
             },
             {
               "$type": "Document",
@@ -318,8 +307,7 @@
               "RelativeToolTip": "include\\Main\\Game.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T12:49:33.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:33.693Z"
             },
             {
               "$type": "Document",
@@ -331,8 +319,7 @@
               "RelativeToolTip": "include\\Pokemon\\Pokemons\\Charmander.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-12T12:21:54.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T12:21:54.2Z"
             },
             {
               "$type": "Document",
@@ -344,8 +331,7 @@
               "RelativeToolTip": "include\\Battle\\BattleState.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T12:49:28.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:28.512Z"
             },
             {
               "$type": "Document",
@@ -357,8 +343,7 @@
               "RelativeToolTip": "include\\Battle\\BattleManager.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T12:49:27.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:27.088Z"
             },
             {
               "$type": "Document",
@@ -370,8 +355,7 @@
               "RelativeToolTip": "src\\Main\\Main.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-06T12:47:47.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:47:47.741Z"
             },
             {
               "$type": "Document",
@@ -383,8 +367,7 @@
               "RelativeToolTip": "src\\Pokemon\\Pokemons\\Squirtle.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-12T12:33:16.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T12:33:16.396Z"
             },
             {
               "$type": "Document",
@@ -396,8 +379,7 @@
               "RelativeToolTip": "src\\Main\\Game.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-06T12:49:46.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:46.381Z"
             },
             {
               "$type": "Document",
@@ -409,8 +391,7 @@
               "RelativeToolTip": "src\\Pokemon\\Pokemons\\Pidgey.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-11T12:15:03.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T12:15:03.857Z"
             },
             {
               "$type": "Document",
@@ -422,8 +403,7 @@
               "RelativeToolTip": "src\\Pokemon\\Pokemons\\Caterpie.cpp",
               "ViewState": "AQIAAAIAAAAAAAAAAIAwwBwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-11T12:20:54.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T12:20:54.154Z"
             },
             {
               "$type": "Document",
@@ -435,8 +415,7 @@
               "RelativeToolTip": "include\\Pokemon\\Pokemons\\Caterpie.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-11T12:20:18.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T12:20:18.309Z"
             },
             {
               "$type": "Document",
@@ -448,8 +427,7 @@
               "RelativeToolTip": "include\\Pokemon\\Pokemons\\Zubat.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-11T12:23:31.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T12:23:31.392Z"
             },
             {
               "$type": "Document",
@@ -461,8 +439,7 @@
               "RelativeToolTip": "src\\Pokemon\\Pokemons\\Charmander.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-12T12:41:30.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T12:41:30.423Z"
             },
             {
               "$type": "Document",
@@ -474,8 +451,7 @@
               "RelativeToolTip": "include\\Pokemon\\Move.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-18T12:54:33.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T12:54:33.119Z"
             },
             {
               "$type": "Document",

@@ -163,6 +163,8 @@
     <ClInclude Include="include\Pokemon\Pokemons\Squirtle.hpp" />
     <ClInclude Include="include\Pokemon\Pokemons\Zubat.hpp" />
     <ClInclude Include="include\Pokemon\PokemonType.hpp" />
+    <ClInclude Include="include\Pokemon\StatusEffects\BurnEffect.hpp" />
+    <ClInclude Include="include\Pokemon\StatusEffects\IStatusEffect.hpp" />
     <ClInclude Include="include\Utility\Utility.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
