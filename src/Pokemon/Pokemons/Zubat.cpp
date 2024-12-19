@@ -1,28 +1,29 @@
 #include "../../../include/Pokemon/Pokemons/Zubat.hpp"
 #include <iostream>
-#include"Utility/Utility.hpp"
 
 using namespace std;
-using namespace N_Utility;
-namespace N_Pokemon {
-    // Constructor implementation
-    Zubat::Zubat(std::string p_name, PokemonType p_type, int p_health, int p_attackPower, int p_supersonicDamage)
-        : Pokemon(p_name, p_type, p_health, p_attackPower), supersonicDamage(p_supersonicDamage) {}
 
-    // Supersonic method implementation
-    void Zubat::supersonic(Pokemon& target) {
-       // std::cout << name << " uses Supersonic! It deals " << supersonicDamage << " damage.\n";
-        target.takeDamage(supersonicDamage);
+namespace N_Pokemon {
+    Zubat::Zubat()
+    : Pokemon("Zubat", PokemonType::POISON, 100, 15) {
+        moves.push_back(Move("LEECH LIFE", 10));
+        moves.push_back(Move("BITE", 20));
     }
 
-    void Zubat::attack(Pokemon& target) {
-        supersonic(target);
-        cout << "Zubat used SUPERSONIC!" << endl;
-        N_Utility::Utility::waitForEnter();
-        cout << "*Screech* An ear-piercing sound resonates!" << endl;
-        N_Utility::Utility::waitForEnter();
-        cout << "The sound waves disorient the opponent!" << endl;
-        N_Utility::Utility::waitForEnter();
-        cout << "Opponent's remaining health: " << target.getHealth() << endl;
+    void Zubat::attack(Move selectedMove, Pokemon* target) {
+        Pokemon::attack(selectedMove, target);  // Call base class attack
+
+        if (selectedMove.name == "LEECH LIFE") {
+            // Restore 50% of the damage dealt
+            int healthRestored = static_cast<int>(selectedMove.power * 0.5);
+            this->health += healthRestored;
+
+            // Ensure health does not exceed maxHealth
+            if (this->health > this->maxHealth) {
+                this->health = this->maxHealth;
+            }
+
+            cout << "... and regained " << healthRestored << " health!\n";
+        }
     }
 }

@@ -7,8 +7,14 @@
 namespace N_Battle {
     class BattleManager {
     public:
+        static BattleManager& getInstance() {
+            static BattleManager instance;
+            return instance;
+        }
+
         BattleManager();
         void startBattle(N_Player::Player& player, N_Pokemon::Pokemon& wildPokemon);
+        void stopBattle();
 
     private:
         BattleState battleState;  // New BattleState object to track the battle

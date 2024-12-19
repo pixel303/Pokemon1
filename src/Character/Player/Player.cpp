@@ -21,16 +21,16 @@ namespace N_Player {
     void Player::choosePokemon(int choice) {
         switch (static_cast<PokemonChoice>(choice)) {
         case PokemonChoice::CHARMANDER:
-            chosenPokemon = make_unique<Charmander>("Charmander", PokemonType::FIRE, 100, 15, 17);
+            chosenPokemon = make_unique<Charmander>();
             break;
         case PokemonChoice::BULBASAUR:
-            chosenPokemon = make_unique<Bulbasaur>("Bulbasaur", PokemonType::GRASS, 100, 12, 15);
+            chosenPokemon = make_unique<Bulbasaur>();
             break;
         case PokemonChoice::SQUIRTLE:
-            chosenPokemon = make_unique<Squirtle>("Squirtle", PokemonType::WATER, 100, 18, 20);
+            chosenPokemon = make_unique<Squirtle>();
             break;
         default:
-            chosenPokemon = make_unique<Pikachu>("Pikachu", PokemonType::ELECTRIC, 100, 17, 20);
+            chosenPokemon = make_unique<Pikachu>();
             break;
         }
         cout << "Player " << name << " chose " << chosenPokemon->getName() << "!\n";
