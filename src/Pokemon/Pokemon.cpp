@@ -23,7 +23,7 @@ namespace N_Pokemon {
         if (health < 0) {
             health = 0; // Ensure health doesn't go below zero
         }
-        cout << name << " took " << damage << " damage and now has " << health << " HP left.\n";
+        //cout << name << " took " << damage << " damage and now has " << health << " HP left.\n";
     }
 
     bool Pokemon::isFainted() const {

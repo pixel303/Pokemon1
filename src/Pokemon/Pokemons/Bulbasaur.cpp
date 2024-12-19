@@ -1,5 +1,9 @@
 #include "../../../include/Pokemon/Pokemons/Bulbasaur.hpp"
 #include <iostream>
+#include"Utility/Utility.hpp"
+
+using namespace N_Utility;
+using namespace std;
 
 namespace N_Pokemon {
     // Constructor implementation
@@ -8,11 +12,18 @@ namespace N_Pokemon {
 
     // Vine Whip method implementation
     void Bulbasaur::vineWhip(Pokemon& target) {
-        std::cout << name << " uses Vine Whip! It deals " << vineWhipDamage << " damage.\n";
+       // std::cout << name << " uses Vine Whip! It deals " << vineWhipDamage << " damage.\n";
         target.takeDamage(vineWhipDamage);
     }
 
     void Bulbasaur::attack(Pokemon& target) {
         vineWhip(target);
+        cout << "Bulbasaur used VINE WHIP!" << endl;
+        N_Utility::Utility::waitForEnter();
+        cout << "*Swoosh* Vines lash out swiftly at the opponent!" << endl;
+        N_Utility::Utility::waitForEnter();
+        cout << "The vines strike with a sharp snap!" << endl;
+        N_Utility::Utility::waitForEnter();
+        cout << "Opponent's remaining health: " << target.getHealth() << endl;
     }
 } 
