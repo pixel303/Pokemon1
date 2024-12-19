@@ -1,29 +1,31 @@
 #include "../../../include/Pokemon/Pokemons/Bulbasaur.hpp"
 #include <iostream>
 #include"Utility/Utility.hpp"
+#include <cstdlib>  // Include for rand()
 
-using namespace N_Utility;
 using namespace std;
+using namespace N_Utility;
 
 namespace N_Pokemon {
-    // Constructor implementation
-    Bulbasaur::Bulbasaur(std::string p_name, PokemonType p_type, int p_health, int p_attackPower, int p_vineWhipDamage)
-        : Pokemon(p_name, p_type, p_health, p_attackPower), vineWhipDamage(p_vineWhipDamage) {}
-
-    // Vine Whip method implementation
-    void Bulbasaur::vineWhip(Pokemon& target) {
-       // std::cout << name << " uses Vine Whip! It deals " << vineWhipDamage << " damage.\n";
-        target.takeDamage(vineWhipDamage);
+    Bulbasaur::Bulbasaur()
+    : Pokemon("Bulbasaur", PokemonType::GRASS, 110, 15) {
+        moves.push_back(Move("VINE WHIP", 25));
+        moves.push_back(Move("TACKLE", 10));
     }
 
-    void Bulbasaur::attack(Pokemon& target) {
-        vineWhip(target);
-        cout << "Bulbasaur used VINE WHIP!" << endl;
-        N_Utility::Utility::waitForEnter();
-        cout << "*Swoosh* Vines lash out swiftly at the opponent!" << endl;
-        N_Utility::Utility::waitForEnter();
-        cout << "The vines strike with a sharp snap!" << endl;
-        N_Utility::Utility::waitForEnter();
-        cout << "Opponent's remaining health: " << target.getHealth() << endl;
+    void Bulbasaur::attack(Move selectedMove, Pokemon* target) {
+        Pokemon::attack(selectedMove, target);  // Call base class attack for the first hit
+
+        if (selectedMove.name == "VINE WHIP") {
+            // Chance for a second hit (50% chance)
+            int secondHitChance = rand() % 2;  // Generates 0 or 1
+            
+            if (secondHitChance == 1) {
+                Pokemon::attack(selectedMove, target);  // Second hit
+                cout << getName() << " hits again with a second " << selectedMove.name << "!\n";
+            } else {
+                cout << target->getName() << " dodged the second hit!\n";
+            }
+        }
     }
 } 

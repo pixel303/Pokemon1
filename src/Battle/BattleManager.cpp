@@ -1,4 +1,5 @@
 #include "../../include/Battle/BattleManager.hpp"
+#include "../../include/Battle/BattleState.hpp"
 #include "../../include/Utility/Utility.hpp"
 #include "../../include/Character/Player/Player.hpp"
 #include "../../include/Pokemon/Pokemon.hpp"
@@ -23,12 +24,12 @@ namespace N_Battle {
     void BattleManager::battle() {
         while (battleState.isBattleOngoing) {
             if (battleState.isPlayerTurn) {
-                // Player's turn to attack
-                battleState.playerPokemon->attack(*battleState.wildPokemon);
+                Move selectedMove = battleState.playerPokemon->getDefaultMove();  // Correct usage
+                battleState.playerPokemon->selectAndUseMove(battleState.wildPokemon);
             }
             else {
-                // Wild Pokémon's turn to attack
-                battleState.wildPokemon->attack(*battleState.playerPokemon);
+                Move wildMove = battleState.wildPokemon->getDefaultMove();  // Correct usage
+                battleState.wildPokemon->attack(wildMove, battleState.playerPokemon);
             }
 
             // Update the battle state after the turn
@@ -56,5 +57,12 @@ namespace N_Battle {
         if (battleState.playerPokemon->isFainted() || battleState.wildPokemon->isFainted()) {
             battleState.isBattleOngoing = false;
         }
+    }
+
+    void BattleManager::stopBattle() {
+        // Implementation to stop the battle
+        // For example, setting a flag or changing the state
+        battleState.isBattleOngoing = false;
+        std::cout << "The battle has been stopped." << std::endl;
     }
 }

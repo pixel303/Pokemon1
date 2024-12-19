@@ -19,10 +19,11 @@ using namespace N_Battle;
 
 namespace N_Main {
     Game::Game() : wildPokemon(nullptr) {
+        BattleManager* battleManager = new BattleManager();
         forestGrass = { "Forest",
-                {new Pidgey("Pidgey", PokemonType::NORMAL, 40, 10, 15),
-                 new Caterpie("Caterpie", PokemonType::BUG, 35, 12, 17),
-                 new Zubat("Zubat", PokemonType::POISON, 30, 15, 18) },
+                {new Pidgey(battleManager),
+                 new Caterpie(),
+                 new Zubat() },
                 70 };
     }
 

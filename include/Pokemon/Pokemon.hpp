@@ -4,6 +4,8 @@
 #include <string>
 #include "../../include/Pokemon/PokemonType.hpp"
 #include <memory>  
+#include <vector>  // Include for using std::vector
+#include "Move.hpp"  // Include to use the Move struct
 
 namespace N_Pokemon {
     class Pokemon {
@@ -13,6 +15,7 @@ namespace N_Pokemon {
         int health;
         int maxHealth;
         int attackPower;
+        std::vector<Move> moves; // Store the list of moves
 
     public:
         Pokemon();
@@ -32,12 +35,24 @@ namespace N_Pokemon {
         void setMaxHealth(int p_maxHealth) { maxHealth = p_maxHealth; }
         void setAttackPower(int p_attackPower) { attackPower = p_attackPower; }
 
-        virtual void attack(Pokemon& target) = 0;
+        virtual void attack(Move selectedMove, Pokemon* target);
         virtual std::unique_ptr<Pokemon> clone() const = 0;  
 
         void takeDamage(int damage);
         bool isFainted() const;
         void heal();
+
+        // Base implementation for selecting and using a move
+        virtual void selectAndUseMove(Pokemon* target);
+
+        // Methods for handling moves
+        void printAvailableMoves();
+        int selectMove();
+        void useMove(Move selectedMove, Pokemon* target);
+
+        void reduceAttackPower(int amount);  // Add this method
+
+        Move getDefaultMove();  // Add this method to get the default move
     };
 }
 

@@ -7,23 +7,26 @@ using namespace N_Utility;
 using namespace std;
 namespace N_Pokemon {
     // Constructor implementation
-    Caterpie::Caterpie(std::string p_name, PokemonType p_type, int p_health, int p_attackPower, int p_bugBiteDamage)
-        : Pokemon(p_name, p_type, p_health, p_attackPower), bugBiteDamage(p_bugBiteDamage) {}
-
-    // Bug Bite method implementation
-    void Caterpie::bugBite(Pokemon& target) {
-        //std::cout << name << " uses Bug Bite! It deals " << bugBiteDamage << " damage.\n";
-        target.takeDamage(bugBiteDamage);
+    Caterpie::Caterpie()
+    : Pokemon("Caterpie", PokemonType::BUG, 50, 10) {
+        moves.push_back(Move("STICKY WEB", 0));  // Assuming no damage from STICKY WEB itself
+        moves.push_back(Move("TACKLE", 10));
     }
 
-    void Caterpie::attack(Pokemon& target) {
-        bugBite(target);
-        cout << "Caterpie used BUG BITE!" << endl;
-        N_Utility::Utility::waitForEnter();
-        cout << "*Crunch* Caterpie bites down hard!" << endl;
-        N_Utility::Utility::waitForEnter();
-        cout << "The bite is sharp and relentless!" << endl;
-        N_Utility::Utility::waitForEnter();
-        cout << "Opponent's remaining health: " << target.getHealth() << endl;
+    // Bug Bite method implementation
+    /*void Caterpie::bugBite(Pokemon& target) {
+        //std::cout << name << " uses Bug Bite! It deals " << bugBiteDamage << " damage.\n";
+        target.takeDamage(bugBiteDamage);
+    }*/
+
+    void Caterpie::attack(Move selectedMove, Pokemon* target) {
+        Pokemon::attack(selectedMove, target);  // Call base class attack for the first hit
+
+        if (selectedMove.name == "STICKY WEB") {
+            // Reduce the target's next attack damage (for simplicity, reducing by a fixed value)
+            int reducedDamage = 5;
+            target->reduceAttackPower(reducedDamage);
+            cout << target->getName() << "'s next attack will be reduced by " << reducedDamage << " damage!\n";
+        }
     }
 }

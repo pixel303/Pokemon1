@@ -19,7 +19,7 @@ using namespace N_Main;
 
 int main() {
     // Create Pokemon and Player objects for the game using dynamic memory allocation
-    N_Pokemon::Pokemon* charmander = new N_Pokemon::Charmander("Charmander", PokemonType::FIRE, 100, 15, 18);
+    Charmander* charmander = new Charmander();
     ProfessorOak* professor = new ProfessorOak("Professor Oak");
     N_Player::Player* player = new N_Player::Player("Ash", *charmander);
     Game* game = new Game();
