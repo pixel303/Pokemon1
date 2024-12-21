@@ -39,8 +39,7 @@ namespace N_Pokemon {
 
         void ParalyzedEffect::clearEffect(Pokemon* target) {
             std::cout << target->getName() << " is no longer paralyzed!\n";
-            // Implement logic to remove the effect from the Pokémon
-            //target->clearEffect(this);  
+              
         }
     }
 } 
