@@ -1,20 +1,23 @@
 #include "../../include/Pokemon/Pokemon.hpp"
 #include "../../include/Pokemon/PokemonType.hpp"
+#include "../../include/Pokemon/StatusEffects/StatusEffectType.hpp"
 #include "../../include/Utility/Utility.hpp"
 #include <iostream>
 using namespace std;
+using namespace N_Pokemon;
+using namespace N_Pokemon::N_StatusEffects;
 
 namespace N_Pokemon {
     // Default constructor
-    Pokemon::Pokemon() : name("Unknown"), type(PokemonType::NORMAL), health(50), maxHealth(50), attackPower(10) {}
+    Pokemon::Pokemon() : name("Unknown"), type(PokemonType::NORMAL), health(50), maxHealth(50), attackPower(10), status(StatusEffectType::NONE) {}
 
     // Parameterized constructor
     Pokemon::Pokemon(string p_name, PokemonType p_type, int p_health, int p_attackPower)
-        : name(p_name), type(p_type), health(p_health), maxHealth(p_health), attackPower(p_attackPower) {}
+        : name(p_name), type(p_type), health(p_health), maxHealth(p_health), attackPower(p_attackPower), status(StatusEffectType::NONE) {}
 
     // Copy constructor
     Pokemon::Pokemon(const Pokemon& other)
-        : name(other.name), type(other.type), health(other.health), maxHealth(other.maxHealth), attackPower(other.attackPower) {}
+        : name(other.name), type(other.type), health(other.health), maxHealth(other.maxHealth), attackPower(other.attackPower), status(other.status) {}
 
     // Destructor
     Pokemon::~Pokemon() {}
@@ -64,7 +67,7 @@ namespace N_Pokemon {
     void Pokemon::useMove(Move selectedMove, Pokemon* target) {
         cout << name << " used " << selectedMove.name << "!\n";
         
-        attack(selectedMove, target);  // Assuming attack method is modified to handle Move object
+        attack(selectedMove, target);  
         
         N_Utility::Utility::waitForEnter();
         cout << "...\n"; 
@@ -77,13 +80,13 @@ namespace N_Pokemon {
     }
 
     void Pokemon::attack(Move move, Pokemon* target) {
-        // Example implementation, assuming damage is directly related to move power
+        
         target->takeDamage(move.power);
     }
 
     void Pokemon::reduceAttackPower(int amount) {
         attackPower -= amount;
-        if (attackPower < 0) attackPower = 0;  // Ensure attack power does not go negative
+        if (attackPower < 0) attackPower = 0; 
         std::cout << name << "'s attack power reduced to " << attackPower << std::endl;
     }
 
@@ -92,5 +95,12 @@ namespace N_Pokemon {
             return moves[0];  // Return the first move as the default move
         }
         return Move("Default Move", 0);  // Return a default move if no moves are defined
+    }
+
+    bool Pokemon::canAttack() const {
+        if (status == StatusEffectType::PARALYZED) {
+            return (rand() % 4) != 0;  // 25% chance to not be able to attack
+        }
+        return true;  // No effect or effects that do not prevent attacking
     }
 }
