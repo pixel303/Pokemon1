@@ -11,6 +11,7 @@ namespace N_Pokemon {
     }
 
     void Zubat::attack(Move selectedMove, Pokemon* target) {
+        cout << "Zubat uses " << selectedMove.name << "!\n";  // Debugging output
         Pokemon::attack(selectedMove, target);  // Call base class attack
 
         if (selectedMove.name == "LEECH LIFE") {
@@ -23,7 +24,7 @@ namespace N_Pokemon {
                 this->health = this->maxHealth;
             }
 
-            cout << "... and regained " << healthRestored << " health!\n";
+            cout << "... and regained " << healthRestored << " health!\n";  // Debugging output
         }
     }
 }

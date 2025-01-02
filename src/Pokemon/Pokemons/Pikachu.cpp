@@ -12,6 +12,7 @@ namespace N_Pokemon {
     }
 
     void Pikachu::attack(Move selectedMove, Pokemon* target) {
+        cout << "Pikachu uses " << selectedMove.name << "!\n";  // Debugging output
         if (selectedMove.name == "THUNDER BOLT") {
             // 80% chance to hit
             if (rand() % 100 < 80) { 

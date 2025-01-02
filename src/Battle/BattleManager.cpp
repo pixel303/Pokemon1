@@ -24,12 +24,21 @@ namespace N_Battle {
     void BattleManager::battle() {
         while (battleState.isBattleOngoing) {
             if (battleState.isPlayerTurn) {
-                Move selectedMove = battleState.playerPokemon->getDefaultMove();  // Correct usage
-                battleState.playerPokemon->selectAndUseMove(battleState.wildPokemon);
-            }
-            else {
-                Move wildMove = battleState.wildPokemon->getDefaultMove();  // Correct usage
-                battleState.wildPokemon->attack(wildMove, battleState.playerPokemon);
+                cout << "Your turn:\n";
+                if (battleState.playerPokemon->canAttack()) {
+                    Move selectedMove = battleState.playerPokemon->getDefaultMove();  // Example of move selection
+                    battleState.playerPokemon->selectAndUseMove(battleState.wildPokemon);
+                } else {
+                    cout << battleState.playerPokemon->getName() << " is paralyzed and can't move!\n";
+                }
+            } else {
+                cout << "Wild Pokemon's turn:\n";
+                if (battleState.wildPokemon->canAttack()) {
+                    Move wildMove = battleState.wildPokemon->getDefaultMove();  // Example of move selection
+                    battleState.wildPokemon->attack(wildMove, battleState.playerPokemon);
+                } else {
+                    cout << battleState.wildPokemon->getName() << " is paralyzed and can't move!\n";
+                }
             }
 
             // Update the battle state after the turn

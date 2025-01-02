@@ -3,6 +3,7 @@
 
 #include <string>
 #include "../../include/Pokemon/PokemonType.hpp"
+#include "../../include/Pokemon/StatusEffects/StatusEffectType.hpp"
 #include <memory>  
 #include <vector>  // Include for using std::vector
 #include "Move.hpp"  // Include to use the Move struct
@@ -16,6 +17,7 @@ namespace N_Pokemon {
         int maxHealth;
         int attackPower;
         std::vector<Move> moves; // Store the list of moves
+        N_StatusEffects::StatusEffectType status;  // Add status effect member
 
     public:
         Pokemon();
@@ -53,6 +55,8 @@ namespace N_Pokemon {
         void reduceAttackPower(int amount);  // Add this method
 
         Move getDefaultMove();  // Add this method to get the default move
+
+        bool canAttack() const;  // Method to check if Pokemon can attack
     };
 }
 
